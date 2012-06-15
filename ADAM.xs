@@ -22,6 +22,7 @@ extern "C" {
 /* Routine to change nulls into newline characters */
 /* Need this since the paramreq values are null separated */
 
+void
 adam_rmnull (char *c, int len) {
   int i;
   if (c==NULL) return;
